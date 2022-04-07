@@ -11,6 +11,8 @@
 		A4D843EE27FF80D20008428A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4D843ED27FF80D20008428A /* ContentView.swift */; };
 		A4D843F027FF80D30008428A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A4D843EF27FF80D30008428A /* Assets.xcassets */; };
 		A4D843F327FF80D30008428A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A4D843F227FF80D30008428A /* Preview Assets.xcassets */; };
+		A4D843FA27FF80F60008428A /* CustomSlider.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4D843F927FF80F60008428A /* CustomSlider.swift */; };
+		A4D843FC27FF84960008428A /* GameSlider.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4D843FB27FF84960008428A /* GameSlider.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +21,8 @@
 		A4D843ED27FF80D20008428A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		A4D843EF27FF80D30008428A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A4D843F227FF80D30008428A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		A4D843F927FF80F60008428A /* CustomSlider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomSlider.swift; sourceTree = "<group>"; };
+		A4D843FB27FF84960008428A /* GameSlider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameSlider.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +57,8 @@
 			children = (
 				A4D843EB27FF80D20008428A /* SliderGameSwiftUIApp.swift */,
 				A4D843ED27FF80D20008428A /* ContentView.swift */,
+				A4D843F927FF80F60008428A /* CustomSlider.swift */,
+				A4D843FB27FF84960008428A /* GameSlider.swift */,
 				A4D843EF27FF80D30008428A /* Assets.xcassets */,
 				A4D843F127FF80D30008428A /* Preview Content */,
 			);
@@ -137,7 +143,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A4D843FC27FF84960008428A /* GameSlider.swift in Sources */,
 				A4D843EE27FF80D20008428A /* ContentView.swift in Sources */,
+				A4D843FA27FF80F60008428A /* CustomSlider.swift in Sources */,
 				A4D843EC27FF80D20008428A /* SliderGameSwiftUIApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
